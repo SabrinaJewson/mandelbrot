@@ -311,7 +311,7 @@ impl Renderer {
             present_mode: wgpu::PresentMode::Fifo,
         };
 
-        let shader_src = std::fs::read_to_string("src/shader.wgsl").unwrap();
+        let shader_src = include_str!("shader.wgsl");
         let shader = device.create_shader_module(&wgpu::ShaderModuleDescriptor {
             label: Some("shader"),
             source: wgpu::ShaderSource::Wgsl(shader_src.into()),
