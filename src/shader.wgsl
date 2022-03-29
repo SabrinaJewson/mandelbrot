@@ -3,7 +3,6 @@ struct VertexOutput {
 	[[location(1)]] color: vec4<f32>;
 };
 
-[[block]]
 struct Params {
 	size: vec2<u32>;
 	offset: vec2<f32>;

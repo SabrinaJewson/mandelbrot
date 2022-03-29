@@ -3,7 +3,7 @@
 Install with:
 
 ```sh
-cargo install --git https://github.com/KaiJewson/mandelbrot
+cargo install --git https://github.com/SabrinaJewson/mandelbrot
 ```
 
 Run `mandelbrot` to open a window displaying the set, and `mandelbrot wallpaper` to set that window
